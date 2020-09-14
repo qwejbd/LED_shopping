@@ -1,0 +1,82 @@
+// 按需全局引入 vant组件
+import Vue from "vue";
+import {
+  Button,
+  List,
+  Cell,
+  Tabbar,
+  TabbarItem,
+  Swipe,
+  SwipeItem,
+  Grid,
+  Sticky,
+  GridItem,
+  Tab,
+  Icon,
+  Tabs,
+  Search,
+  Sidebar,
+  SidebarItem,
+  Form,
+  CellGroup,
+  Field,
+  NavBar,
+  Card,
+  SwipeCell,
+  Divider,
+  Stepper,
+  SubmitBar,
+  Tag,
+  Sku,
+  Popup,
+  AddressList,
+  AddressEdit,
+  Area,
+  ContactCard,
+  ContactList,
+  ContactEdit,
+  CountDown,
+  Radio,
+  RadioGroup,
+  NumberKeyboard,
+  PasswordInput,
+} from "vant";
+Vue.use(PasswordInput);
+Vue.use(NumberKeyboard);
+Vue.use(Radio);
+Vue.use(RadioGroup);
+Vue.use(CountDown);
+Vue.use(ContactCard);
+Vue.use(ContactList);
+Vue.use(ContactEdit);
+Vue.use(Area);
+Vue.use(AddressEdit);
+Vue.use(Button);
+Vue.use(Cell);
+Vue.use(List);
+Vue.use(Tabbar).use(TabbarItem);
+Vue.use(Swipe);
+Vue.use(SwipeItem);
+Vue.use(Grid);
+Vue.use(GridItem);
+Vue.use(Sticky);
+Vue.use(Icon);
+Vue.use(Tab);
+Vue.use(Tabs);
+Vue.use(Search);
+Vue.use(Sidebar);
+Vue.use(SidebarItem);
+Vue.use(Form);
+Vue.use(Field);
+Vue.use(Cell);
+Vue.use(CellGroup);
+Vue.use(NavBar);
+Vue.use(SwipeCell);
+Vue.use(Card);
+Vue.use(Divider);
+Vue.use(Stepper);
+Vue.use(SubmitBar);
+Vue.use(Tag);
+Vue.use(Sku);
+Vue.use(Popup);
+Vue.use(AddressList);
